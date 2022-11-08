@@ -3,9 +3,9 @@ import logging
 import numpy as np
 import tensorflow as tf
 
-from .child_network import ChildCNN
-from .cifar10_processor import get_tf_datasets_from_numpy
-from .config import child_network_params, controller_params
+from child_network import ChildCNN
+from cifar10_processor import get_tf_datasets_from_numpy
+from config import child_network_params, controller_params
 
 logger = logging.getLogger(__name__)
 
